@@ -1,0 +1,34 @@
+.box{
+   height: 72px;
+   width: 72px;
+   display: grid;
+   border: 1px solid black;
+   place-items: center; 
+   font-weight: 700;
+   
+}
+
+.box.selected{
+    background-color: black;
+    color: white;
+}
+
+p{
+    font-size: 24px;
+    font-weight: 700px;
+}
+.noSelector{
+display: flex;
+gap: 24px;
+}
+
+
+.noSelector-container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.error{
+    color: red;
+}

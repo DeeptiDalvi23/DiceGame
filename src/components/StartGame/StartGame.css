@@ -1,0 +1,43 @@
+.img-container{
+   
+    width: 60%;
+    height: 50vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container{
+    max-width: 1180px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.content h1{
+    font-size: 96px;
+    white-space: nowrap;
+}
+
+.content button{
+  padding: 10px 18px;
+  border-radius: 5px;
+  min-width: 220px;
+  background-color: black;
+  color: antiquewhite;
+  border: none;
+}
+
+.content button:hover{
+    color: black;
+    background-color: rgb(105, 104, 104);
+    transition: 0.3s background-color ease-in-out;
+    
+}
